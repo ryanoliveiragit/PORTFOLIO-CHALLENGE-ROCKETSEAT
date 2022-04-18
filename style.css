@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: var(--body-bg-color)
+}
+
+#rem {
+    margin-right: 1rem;
+}
+.coluna1 {
+    background-color: var(--body-bg-color);
+    width: 25%;
+    height: 90vh;
+    margin: 1rem;
+}
+
+.coluna2 {
+    background-color: var(--body-bg-color);
+    width: 100%;
+    height: 90vh;
+    margin: 1rem;
+}
+
+.container {
+    display: flex;
+    margin: 1rem;
+}
+
+.perfil {
+    background-color: var(--bg-cards);
+    width: 100%;
+    height:25%;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.perfil h1 {
+    margin-top: 10px;
+    font-size: 2.5vh;
+}
+
+.perfil h2 {
+    font-size: 1.5vh;
+    font-weight: 500;
+    
+}
+
+.perfil img {
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 100px;
+    border: 3px solid rgb(76, 0, 255);
+}
+
+.info {
+    margin-top: 20px;
+    background-color: var(--bg-cards);
+    width: 100%;
+    height:45%;
+    border-radius: 15px;
+}
+
+.informações {
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.informações li {
+    color: var(--text-color);
+    font-size: 13px;
+    list-style: none;
+    margin-top: 20px;
+    align-items: center
+}
+
+.informações img {
+    width: 12px;
+
+}
+
+.informações span {
+    margin-left: 15px;
+}
+
+.habilidades {
+    margin-top: 20px;
+    background-color: var(--bg-cards);
+    width: 100%;
+    height:25%;
+    border-radius: 15px;
+}
+
+.habilidades h1 {
+    font-size: 20px;
+    padding: 15px;
+    color: var(--text-color);
+}
+
+.myProjects {
+    display: flex;
+    background-color: var(--bg-cards);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.myProjects h1 {
+    color: var(--text-color);
+    font-size: 20px;
+}
+.myProjects a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.pastas {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.pasta1 {
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--bg-cards)
+}
+
+.pasta1 h1 {
+    font-size: 16px;
+}
+
+#soft {
+    color:#752ed3;
+}
+
+#code {
+    color:#2eacd3;
+}
+.pasta1 p {
+    color: var(--text-color);
+    font-size:12px;
+    padding-top: 15px;
+}
+
+.pasta1 img {
+    width:20px;
+    padding-right: 20px;
+    float: left;
+}
+.js {
+    padding-left: 98%;
+    padding-top: 10px;
+}
+
+.posts {
+    display: flex;
+    background-color: var(--bg-cards);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    clear: both;
+}
+
+.posts h1 {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.postsOn {
+    background-color: var(--bg-cards);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    height: 30%;
+}
+
+.postsOn img {
+    max-width: 20%;
+    border-radius: 15px;
+    float: left;
+    margin-right: 30px;
+}
+
+.postsOn h1, h4, p{
+    color: var(--text-color);
+}
+
+.postsOn h4 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.postsOn p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
