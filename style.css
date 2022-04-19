@@ -61,40 +61,54 @@ body {
     margin-top: 20px;
     width: 30%;
     border-radius: 100px;
-    border: 3px solid rgb(76, 0, 255);
+    border: 3px solid rgb(254, 255, 253);
+}
+
+.perfil img:hover {
+    border: 3px solid rgb(93, 24, 255);
+    cursor: pointer;
 }
 
 .info {
     margin-top: 20px;
     background-color: var(--bg-cards);
     width: 100%;
-    height:45%;
+    height: 45%;
     border-radius: 15px;
+    align-items: left;
+    text-align: left;
 }
 
 .informações {
-    padding-top: 40px;
-    align-items: center;
-    display: flex;
-}
-
-
-
-.informações li {
+    position: relative;
+    top: 12%;
+    margin: 10%;
+    width: 80%;
+    height: 80%;
     color: var(--text-color);
-    font-size: 13px;
-    list-style: none;
-    margin-top: 20px;
-    align-items: center
+    margin-top: 35px;
+    text-align: left;
+    background-color:var(--bg-cards);
 }
 
 .informações img {
-    width: 12px;
-
+    float: inline-end;
+    width: 7%;
+    margin-right: 20px;
+    margin-top: 5%;
 }
 
-.informações span {
-    margin-left: 15px;
+.informações img:hover{
+    cursor: pointer;
+    background-color: #22212c27;
+}
+
+#contactText {
+    font-size: 2vh;
+    padding-bottom: 10px;
+}
+#text {
+    font-size: 12px;
 }
 
 .habilidades {
@@ -106,9 +120,18 @@ body {
 }
 
 .habilidades h1 {
-    font-size: 20px;
-    padding: 15px;
+    font-size: 2vh;
+    padding-left: 10%;
+    padding-top: 5%;
     color: var(--text-color);
+}
+
+
+.tecnologias img{
+    width: 9%;
+    margin-left: 35px;
+    margin-top: 13px;
+    border-radius: 5px;
 }
 
 .myProjects {
@@ -127,6 +150,10 @@ body {
 .myProjects a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.myProjects a:hover{
+    color: rgba(255, 255, 255, 0.705);
 }
 
 .pastas {
@@ -165,7 +192,7 @@ body {
     float: left;
 }
 .js {
-    padding-left: 98%;
+    padding-left: 96%;
     padding-top: 10px;
 }
 
@@ -192,7 +219,7 @@ body {
     border-radius: 15px;
     padding: 20px;
     margin-top: 20px;
-    height: 30%;
+    height: 250px;
 }
 
 .postsOn img {
