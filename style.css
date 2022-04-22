@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
 
 :root {
-    --body-bg-color: #22212C;
-    --text-color: #837E9F;
+    --body-bg-color: #1a1922;
+    --text-color: #837ea0;
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
   }
@@ -14,7 +14,20 @@ body {
     background-color: var(--body-bg-color)
 }
 
-#rem {
+.an { 
+    animation: go-back 1s;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+.rem {
     margin-right: 1rem;
 }
 .coluna1 {
@@ -51,6 +64,8 @@ body {
     font-size: 2.5vh;
 }
 
+
+
 .perfil h2 {
     font-size: 1.5vh;
     font-weight: 500;
@@ -61,13 +76,9 @@ body {
     margin-top: 20px;
     width: 30%;
     border-radius: 100px;
-    border: 3px solid rgb(254, 255, 253);
+    border: 3px solid #2eacd3;
 }
 
-.perfil img:hover {
-    border: 3px solid rgb(93, 24, 255);
-    cursor: pointer;
-}
 
 .info {
     margin-top: 20px;
@@ -138,7 +149,6 @@ body {
     display: flex;
     background-color: var(--bg-cards);
     justify-content: space-between;
-    align-items: center;
     border-radius: 15px;
     padding: 20px;
 }
@@ -147,18 +157,17 @@ body {
     color: var(--text-color);
     font-size: 20px;
 }
-.myProjects a {
-    text-decoration: none;
-    color: var(--text-color);
-}
-
-.myProjects a:hover{
-    color: rgba(255, 255, 255, 0.705);
+.myProjects img {
+    padding-top: 10px;
+    width: 20px;
+    cursor: pointer;
 }
 
 .pastas {
     display: flex;
+
     padding-top: 20px;
+
 
 }
 
@@ -169,14 +178,41 @@ body {
     background-color: var(--bg-cards)
 }
 
+
+.pasta2 {
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--bg-cards)
+}
+
+.pasta2 h1 {
+    font-size: 16px;
+}
+
+.pasta2 p {
+    color: var(--text-color);
+    font-size:12px;
+    padding-top: 15px;
+}
+
+.pasta2 img {
+    width:20px;
+    padding-right: 20px;
+    float: right;
+}
+
 .pasta1 h1 {
     font-size: 16px;
 }
 
-#soft {
-    color:#752ed3;
-}
 
+#soft {
+    color:#2eacd3;
+}
+span {
+    color:#2eacd3;
+}
 #code {
     color:#2eacd3;
 }
@@ -189,7 +225,7 @@ body {
 .pasta1 img {
     width:20px;
     padding-right: 20px;
-    float: left;
+    float: right;
 }
 .js {
     padding-left: 96%;
@@ -242,4 +278,30 @@ body {
 .postsOn p {
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.setaReact {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.desafios {
+    color: var(--text-color);
+    font-size: 14px;
+    
+}
+
+.desafios img {
+    color: var(--text-color);
+    width: 40px;
+}
+
+#pd {
+    font-size: 1vh;
+}
+
+.contatosc {
+    padding-top: 2.5%;
+    position: fixed;
+    width: 75.5%;
 }
